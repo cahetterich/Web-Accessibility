@@ -5,6 +5,12 @@ Códigos do projeto de Acessibilidade e Tecnologias Web: técnicas em HTML, CSS 
 <!-- [Certificado do Curso - Em andamento ](http) -->
 <br>
 
+
+| Curso | Certificado |
+| ------ | ------ |
+| CSS: ajustando a acessibilidade visual em um projeto | [Certificado](https://cursos.alura.com.br/certificate/b88a59ec-0494-480f-94d2-3d42ebe9776e) |
+| Acessibilidade no HTML: escrevendo códigos semânticos para inclusão| Em formação |
+
 <h2> Projeto desenvolvido: </h2>
 
 <h3>Calmaria Spa</h3>
