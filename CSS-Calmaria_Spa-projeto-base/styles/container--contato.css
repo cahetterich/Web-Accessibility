@@ -44,6 +44,8 @@
     font-family: "Krona One", sans-serif;
     white-space: nowrap;
     font-size: 2.6rem;
+    color: var(--azul-escuro);
+    font-weight: 400;
 }
 
 .container__contato--form-conteudo-texto {
@@ -78,8 +80,8 @@
 .container__contato .container__contato--form .container__contato--inputs .container__contato--inputs--div {
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
-    padding: 1rem;
+    row-gap: 3.5rem;
+    padding: 2rem;
 }
 
 .container__contato .container__contato--form button {
@@ -143,8 +145,8 @@
 
     .container__contato .container__contato--form .container__contato--inputs .container__contato--inputs--div {
         flex-direction: row;
-        column-gap: 1rem;
-        padding: 1.5rem 0;
+        column-gap: 3.5rem;
+        padding: 3.5rem 0;
     }
 
 }

@@ -8,6 +8,18 @@
 .rodape .rodape__nav--lista {
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 3.5rem;
     padding: 1.5rem 0;
+}
+
+.rodape .rodape__nav--lista .rodape__nav--lista--whatsap::before {
+    content: url(../assets/Whatsapp.svg);
+}
+
+.rodape .rodape__nav--lista .rodape__nav--lista--instagram::before {
+    content: url(../assets/Instragam.svg);
+}
+
+.rodape .rodape__nav--lista .rodape__nav--lista--tiktok::before {
+    content: url(../assets/Tiktok.svg);
 }
