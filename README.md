@@ -2,14 +2,14 @@
 Códigos do projeto de Acessibilidade e Tecnologias Web: técnicas em HTML, CSS e JavaScript para projetos inclusivos
 
 <br>
-[Certificado do Curso - Em andamento ](---)
+<!-- [Certificado do Curso - Em andamento ](http) -->
 <br>
 
 <h2> Projeto desenvolvido: </h2>
 
 <h3>Calmaria Spa</h3>
 
-![Página inicial - MENU](https://github.com/cahetterich/ALURA_HTML-CSS/assets/148469247/dd8b5d84-a372-4230-8ce0-c46ec640273e)
+![Desktop](https://github.com/cahetterich/web-accessibility/assets/148469247/ea1f3976-c2cc-4521-b014-0051343936a4)
 
 ## Proposito do projeto:
 
