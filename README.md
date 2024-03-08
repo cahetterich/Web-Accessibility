@@ -25,7 +25,9 @@ Códigos do projeto de Acessibilidade e Tecnologias Web: técnicas em HTML, CSS 
 
 * CSS visando a melhoria e acessibilidade visual
 
-* Utilização de ferramentas de teste como:  WCAG, Lighthouse e leitores de tela para testar a usabilidade.
+* Utilização de ferramentas de teste como:  WCAG, Lighthouse e Axe DevTools
+
+* Utilização do NVDA
 
 * Compreender e aplicar as diretrizes WCAG
 
