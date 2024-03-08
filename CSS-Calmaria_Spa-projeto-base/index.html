@@ -24,7 +24,7 @@
   <body>
     <header class="cabecalho">
       <nav class="cabecalho__nav">
-        <a href="#">
+        <a aria-label="Página da Calmaria Spa" href="#">
           <img
             class="cabecalho__nav--logo"
             src="./assets/logo.png"
@@ -80,6 +80,7 @@
               tranquilidade.
             </p>
             <object
+              aria-hidden="true"
               tabindex="-1"
               data="./assets/separador-direita.svg"
               type="image/svg+xml"
@@ -97,6 +98,7 @@
               encontra seu paraíso particular.
             </p>
             <object
+              aria-hidden="true"
               tabindex="-1"
               data="./assets/separador-esquerda.svg"
               type="image/svg+xml"
@@ -135,9 +137,9 @@
           <h3 class="container__cards--card-title">Tratamentos</h3>
           <img src="./assets/soft-star.png" alt="" />
           <p class="container__cards--card-texto">
-            Sua pele gentilmente tratada com <span lang="en">peelings, liftings</span>, hidratações
-            profundas do corpo e do rosto, além de limpeza facial e banhos
-            revigorantes.
+            Sua pele gentilmente tratada com
+            <span lang="en">peelings, liftings</span>, hidratações profundas do
+            corpo e do rosto, além de limpeza facial e banhos revigorantes.
           </p>
         </article>
         <article class="container__cards--card">
@@ -167,11 +169,11 @@
             Inscreva-se para ganhar descontos!
           </h4>
           <p class="container__incricao--form-texto">
-            Cadastre-se em nossa <span lang="en">newsletter</span> para receber descontos e novidades
-            sobre nossos serviços.
+            Cadastre-se em nossa <span lang="en">newsletter</span> para receber
+            descontos e novidades sobre nossos serviços.
           </p>
           <div class="container__incricao--form-input">
-            <input id="inscricao" type="email" />
+            <input id="inscricao" type="email" placeholder="Digite seu email" />
             <button>Inscrever</button>
           </div>
         </div>
@@ -204,13 +206,16 @@
             title="Mulher em uma banheira com pétalas de rosa, com apenas mãos e pernas aparentes, segurando um livro e com uma bandeija com uvas e chá."
           />
         </div>
-        <div
+        <form
           action="."
           id="contato-formulario"
           class="container__contato--form"
         >
           <div class="container__contato--form-conteudo">
-            <h5 class="container__contato--form-conteudo-titulo">
+            <h5
+              id="titulo-contato"
+              class="container__contato--form-conteudo-titulo"
+            >
               Entre em contato
             </h5>
             <p class="container__contato--form-conteudo-texto">
@@ -219,49 +224,96 @@
             </p>
           </div>
           <div class="container__contato--inputs">
-            <label>Nome</label>
-            <input type="text" />
-            <label>Email</label>
-            <input type="email" />
-            <label>Telefone</label>
-            <input type="text" />
-            <div>
-              <p class="container__contato--inputs--titulo">
+            <label for="nome">Nome:</label>
+            <input
+              id="nome"
+              type="text"
+              placeholder="Digite seu nome completo"
+              name="nome"
+              required
+            />
+            <label for="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Digite seu email"
+              name="email"
+              required
+            />
+            <label for="telefone">Telefone</label>
+            <input
+              id="telefone"
+              type="text"
+              placeholder="(XX) XXXX-XXXX"
+              name="telefone"
+              required
+            />
+            <fieldset aria-labelledby="titulo-contato">
+              <legend class="container__contato--inputs--titulo">
                 Prefere contato por:
-              </p>
+              </legend>
               <div class="container__contato--inputs--div">
                 <div>
-                  <input type="radio" />
-                  <label>Ligação</label>
+                  <input type="radio" id="ligacao" name="contato" />
+                  <label for="ligacao">Ligação</label>
                 </div>
                 <div>
-                  <input type="radio" />
-                  <label>WhatsApp</label>
+                  <input type="radio" id="whatsapp" nome="contato" />
+                  <label for="whatsapp">WhatsApp</label>
                 </div>
                 <div>
-                  <input type="radio" />
-                  <label>Email</label>
+                  <input type="radio" id="email-contato" name="contato" />
+                  <label for="email-contato">Email</label>
                 </div>
               </div>
-            </div>
-            <label>Mensagem</label>
-            <textarea type="text"></textarea>
+            </fieldset>
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              id="mensagem"
+              type="text"
+              placeholder="Escreva sua mensagem"
+              maxlength="500"
+              name="mensagem"
+            ></textarea>
           </div>
           <button>Enviar</button>
-        </div>
+        </form>
       </section>
-
     </main>
 
     <footer class="rodape">
       <address>
-        Acesse nossas redes:<br>
+        Acesse nossas redes:<br />
         <ul class="rodape__nav--lista">
-          <li><a href="#" class="rodape__nav--lista--whatsap"> </a></li>
-          <li><a href="#" class="rodape__nav--lista--instagram"> </a></li>
-          <li><a href="#" class="rodape__nav--lista--tiktok"> </a></li>
+          <li>
+            <a
+              aria-label="Whatsapp da Calmaria Spa"
+              href="#"
+              class="rodape__nav--lista--whatsap"
+            >
+            </a>
+          </li>
+          <li>
+            <a
+              aria-label="Instagram da Calmaria Spa"
+              href="#"
+              class="rodape__nav--lista--instagram"
+            >
+            </a>
+          </li>
+          <li>
+            <a
+              aria-label="TikTok da Calmaria Spa"
+              href="#"
+              class="rodape__nav--lista--tiktok"
+            >
+            </a>
+          </li>
         </ul>
-        <small>Desenvolvido smallor Alura. Projeto fictício sem fins comerciais.</small>
+        <small
+          >Desenvolvido smallor Alura. Projeto fictício sem fins
+          comerciais.</small
+        >
       </address>
     </footer>
   </body>

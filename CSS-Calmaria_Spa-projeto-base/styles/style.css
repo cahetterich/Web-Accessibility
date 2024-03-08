@@ -10,6 +10,9 @@
   font-size: 62.5%;
 }
 
+fieldset {
+  border: none;
+}
 
 * {
   padding: 0;
