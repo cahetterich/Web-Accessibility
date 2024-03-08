@@ -9,7 +9,7 @@ Códigos do projeto de Acessibilidade e Tecnologias Web: técnicas em HTML, CSS 
 | Curso | Certificado |
 | ------ | ------ |
 | CSS: ajustando a acessibilidade visual em um projeto | [Certificado](https://cursos.alura.com.br/certificate/b88a59ec-0494-480f-94d2-3d42ebe9776e) |
-| Acessibilidade no HTML: escrevendo códigos semânticos para inclusão| Em formação |
+| Acessibilidade no HTML: escrevendo códigos semânticos para inclusão| [Certificado](https://cursos.alura.com.br/certificate/423ff9f5-0030-455c-9669-c57a5add1965) |
 
 <h2> Projeto desenvolvido: </h2>
 
